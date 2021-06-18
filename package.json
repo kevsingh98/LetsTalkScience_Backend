@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "final year project",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& nodemon server.js",
+    "start-prod": "set NODE_ENV=production&& node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevsingh98/LetsTalkScience.git"
+  },
+  "author": "Kevin Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevsingh98/LetsTalkScience/issues"
+  },
+  "homepage": "https://github.com/kevsingh98/LetsTalkScience#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "v12.18.4"
+  }
+}

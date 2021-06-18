@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://Kevin:Timmp.741998@v1.3qfyw.mongodb.net/LetsTalkScience?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientID": "8c2bec04f4588ac04666",
+  "githubSecret": "4c4995588f3b64330011ebb5a43afcf24dbea792"
+}
